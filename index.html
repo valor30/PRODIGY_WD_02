@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch || Apratim Mukherjee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+<div class="app" id="stopwatchApp">
+  <div class="time-display" id="stopwatchDisplay">00:00:00.000</div>
+  <button class="button" id="startButton">START</button>
+  <button class="button" id="stopButton">STOP</button>
+  <button class="button" id="restartButton">RESTART</button>
+  <button class="button" id="lapButton">LAP</button>
+  <div id="lapTimes"></div>
+  <div class="time-display" id="timerDisplay">00:00</div>
+  <button class="button" id="startTimerButton">START TIMER</button>
+  <input type="number" id="hoursInput" placeholder="Enter hours">
+  <input type="number" id="minutesInput" placeholder="Enter minutes">
+  <input type="number" id="secondsInput" placeholder="Enter seconds">
+  <button class="button" onclick="switchApp('clock')">SHOW CLOCK</button>
+</div>
+<div class="app" id="clockApp" style="display:none;">
+  <div class="time-display" id="clockDisplay"></div>
+  <button class="button" onclick="switchApp('stopwatch')">SHOW STOPWATCH</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

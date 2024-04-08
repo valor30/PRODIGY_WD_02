@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+.delete-lap-button {
+    padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 20px;
+      border: none;
+      background-color: #f0f0f000;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      border: 1px solid #000000;
+      border-radius: 521px;
+  }
+    body {
+        font-family: "Lucida Handwriting", cursive;
+      background: url(SVG.png);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .app {
+      text-align: center;
+      padding: 20px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: rgba(255, 255, 255, 0.105);
+      border-radius: px;
+
+      max-width: 600px;
+      margin: auto;
+    }
+    .button {
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 20px;
+      border: none;
+      background-color: #f0f0f000;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      border: 1px solid #000000;
+    border-radius: 521px;
+    }
+    .button:hover {
+      background-color: #74ff17;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    }
+    .time-display {
+      font-size: 4em;
+      margin: 20px;
+      color: #1e0056;
+    }
+
+    
+input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100px;
+  }
+  
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  
+  input[type="number"]::placeholder {
+    color: #999;
+  }
+  
+  
+  input[type="number"]:not(:placeholder-shown) {
+    background-color: #e8f0fe;
+  }
+
+  input[type="number"]:hover {
+    border-color: #888;
+  }
+  
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+    @media only screen and (max-width: 600px) {
+  
+  .app {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .button {
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .time-display {
+    font-size: 2em;
+    margin: 20px;
+  }
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100px;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  
+  input[type="number"]::placeholder {
+    color: #999;
+  }
+  
+  
+  input[type="number"]:not(:placeholder-shown) {
+    background-color: #e8f0fe;
+  }
+  
+  
+  input[type="number"]:hover {
+    border-color: #888;
+  }
+  
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+  .app {
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .button {
+    padding: 9px 18px;
+    margin: 8px;
+    border-radius: 15px;
+  }
+  .time-display {
+    font-size: 3em;
+    margin: 40px;
+  }
+}
