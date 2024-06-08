@@ -44,8 +44,11 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Preview
-![preview]
+## Preview 1
+![preview](preview1.png)
+
+## Preview 2
+![preview2](preview2.png)
 
 ---
 
