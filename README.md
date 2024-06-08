@@ -16,11 +16,11 @@ This is a simple and elegant stopwatch application built using HTML, CSS, and Ja
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/stopwatch-app.git
+    git clone https://github.com/valor30/PRODIGY_WD_02.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd stopwatch-app
+    cd PRODIGY_WD_02
     ```
 
 ## Usage
@@ -33,8 +33,8 @@ This is a simple and elegant stopwatch application built using HTML, CSS, and Ja
 
 ## Customization
 
-- **Background Image**: Replace `assets/background.svg` with your own SVG file.
-- **Alert Sound**: Replace `assets/alert.wav` with your own WAV file.
+- **Background Image**: Replace `SVG.png` with your own SVG file.
+- **Alert Sound**: Replace `sound.wav` with your own WAV file.
 
 ## Contributing
 
